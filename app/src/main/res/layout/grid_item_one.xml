@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="155dp"
+    android:layout_height="160dp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_marginRight="30dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:src="@mipmap/phone"
+        android:id="@+id/img_grid"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系物业"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_title_grid"/>
+</LinearLayout>

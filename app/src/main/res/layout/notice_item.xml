@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp"
+    android:layout_marginBottom="20dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/notice_title"
+    android:gravity="center"
+    android:text="noticetitle"
+    android:textSize="28sp"
+    android:textColor="@color/black"
+    android:layout_marginTop="10dp"
+    />
+    <TextView
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="content"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/notice_content"
+        android:textColor="@color/black"
+        android:background="#a7a3a3"
+        />
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:text="作者:ll "
+            android:textColor="@color/black"
+            android:id="@+id/notice_ower"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:text="时间"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:id="@+id/notice_time"/>
+    </RelativeLayout>
+</LinearLayout>
